@@ -2,7 +2,7 @@ def oxford_comma(array)
   #if 1 item is in array
   if array.length == 1
     #returns first item in array(no changes)
-    return array.to_s
+    array.to_s
   #if 2 items in array
   elsif array.length == 2
     #add " and " between the two objects
